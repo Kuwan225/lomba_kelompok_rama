@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./yadika.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 65px;
+  align-items: center;
+  line-height: 65px;
+  background-color: blue;
+}
+
+nav .logo {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+}
+nav h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+nav .image img {
+  margin-top: 15px;
+  width: 65px;
+  height: 65px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 200px;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+}
+.container .text {
+  width: 800px;
+  color: white;
+}

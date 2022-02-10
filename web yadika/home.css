@@ -1,102 +1,70 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url('yadika.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'PT Serif', serif;
-    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("yadika.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "PT Serif", serif;
+  overflow: hidden;
 }
 
 .banner p {
-    text-align: center;
-    line-height: 100vh;
-    font-size: 50px;
-    color: white;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 50px;
+  color: white;
 }
 
-nav{
-    background-color: blue;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    height: 65px;
-    align-items: center;
-    padding: 0 20px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 65px;
+  align-items: center;
+  line-height: 65px;
 }
 
-nav .logo{
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 3px;
-    font-weight: 600;
-    font-size: 30px;
-    display: flex;
+nav .logo {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
 }
-nav h4{
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-nav .image img{
-    margin-top: 15px;
-    width: 55px;
-    height: 55px;
-
+nav h4 {
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    width: 40%;
-    justify-content: space-between;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
+nav .image img {
+  margin-top: 15px;
+  width: 65px;
+  height: 65px;
 }
 
-nav ul li a:hover{
-    color: white;
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 200px;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
 }
 
-nav ul .cate,
-#cari {
-    cursor: pointer;
-}
-
-nav ul .cate{
-    display: block;
-}
-
-nav ul .cate:hover .gory{
-    display: flex;
-}
-
-nav ul .cate .gory{
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    padding-top: 15px;
-}
-
-nav ul .cate .gory li{
-    display: flex;
-    background-color: blue;
-    width: 200px;
-    color: white;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-}
-
-nav .cate .gory a{
-        padding: 10px;
+nav ul li a:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
 }
